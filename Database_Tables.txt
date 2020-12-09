@@ -1,0 +1,92 @@
+
+Entities:
+
+
+    (many to one)
+1.  Customer(Ration Card Holder)------>   customerId ------------P.K
+                                          customerName (uname)
+                                          contact no  (pass)
+                                          address
+                                          ration number
+                                          Distributor ----------F.K
+                                          Ration list ----------F.K
+
+
+  (one to many)
+2. Distributor----------->  distributorId -----------P.K
+                            distributorName
+                            distributorAddress
+                            distributorContact no
+                            Customer list-----------F.K
+                            Ration list ------------F.K
+                             
+
+
+3. Truck Driver-------------> DriverName
+                              DriverContact
+                              TruckRegNum ------P.K
+
+
+
+4. Ration -------------> goodsName
+                         goodsCost
+                         goodsQnty
+                    
+  
+
+Introduction:
+This project aims to solve the problem of tracking and accountability of vehicles by providing a software platform.
+This project would serve as an important step to help in Vehicle tracking, component monitoring, vehicle analysis and Ration
+management.
+ An efficient vehicle tracking system is implemented for monitoring of any equipped vehicle from any location at any time with 
+the help of Global Positioning System (GPS) and Arduino Board which will enable users to locate their vehicles with ease and
+ in a convenient manner. This web application will provide a dashboard for better and easy understanding of their vehicle positions 
+and related statistics.
+The core function of our project is to develop a tracking system that is cost-effective so we have made use of the following 
+components that have effective operation and usage. 
+
+Initially, we worked on getting geo coordinates i.e. latitude and longitude and for this, 
+we made use of the GPS module to capture location, speed and time of last received data in accordance. 
+
+
+Here, the GPS receiver receives the location data like latitude and longitude of a vehicle and send them by using 
+an HTTP request to web server. The browser is used to load the PHP web page which contains Google maps to show the 
+location of the vehicle in real time. The web page containing the map directly marks the coordinates, as it arrives, 
+without reloading the page. That means, in real time, we get to see the location of the vehicle.
+                         
+Geofencing is one of the important features of our project. As the problem statement stated that driver may take a longer route 
+to increase fuel consumption and ask for more money for his long journey or the driver unintentionally took the wrong path,
+ such scenario affects the throughput of the journey. It also affects the performance of vehicle and driver. 
+Thus, the geofencing is applied.
+Geofencing is the virtual boundary to the optimized path from source to destination which is defined at the time of journey creation.
+It is a radius which user have to input in meters. Whenever vehicle deviates from its optimized path and the deviation is more than 
+the defined radius then it means it’s a geofencing break, which results in a notification popup generated on the screen. 
+This helps user to know that geofencing is broken by this vehicle.
+
+
+
+Functional requirnment
+
+Customer----->1. TrackLocationOfTruck
+              2. GetPersonaldetails
+              3. GetRationDetails
+              4. UpdateDetails
+              5. DeleteData
+              6. LogOut
+              7. GetDistributorDetails 
+
+Distributor----->1. TrackLocationOfTruck
+                 2. GetPersonaldetails
+                 3. GetRationDetails
+                 4. UpdateDetails
+                 5. DeleteData
+                 6. LogOut
+                 7. GetCustomerList
+                 8. 
+
+Required pages
+  1.Welcome page
+       a. Login To Customer        
+       b. Login To Distributor
+       c. Login To Admin 
+  2.                      
