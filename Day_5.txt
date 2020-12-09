@@ -1,0 +1,247 @@
+ Week 2:
+
+Agenda
+
+	asdm
+	.net Framework
+	
+ASDM module
+
+Day 4:
+      Cloud: Web- internet--- Computing Infrastructure
+	IAAS
+	PAAS
+	SAAS
+      Cloud 
+	   Private Cloud
+	   Public Cloud
+	   Hybrid Cloud
+     Cloud Providers:
+		
+	   Amazon-------AWS
+	   Google-------GCP
+	   Microsoft----Azure
+    
+    Enterprise Application Deployment
+	   In house server infrastructure
+	   BCL:
+
+    Virtualization:
+	   Utilizing Physical Hardware, network efficiently
+	   VMware, Virtual Box, HyperV Manager, etc.	
+
+Day 5:
+	Cloud Computing:
+
+	
+
+	 Why SAAS Service Model ?
+
+
+		using Example of  Organization Transflower
+		using service provider: Microsoft
+		using  Cloud: Azure
+		using  SAAS: Office 365
+
+Case Study:
+
+
+	Ravi Tambade ( person) 
+	  Owner  Company: ( Transflower Learning Pvt. Ltd)
+		 Business services:
+
+			online Training business
+			online workshops
+			online CDAC Trainings
+			online Corporate Trainings
+			Consulting	
+
+	
+	Transflower company needs online presence:
+		Web site, 
+		Web portal,
+		Mobile App,
+
+		through which Customers of Transflower use learning services provided by Transflower
+		 
+		Customers: 
+			 Individual students  ( 15,0000)------ Live users-------600 users
+			 Individual working IT pros ( 25,000)--workshop users-----60 users
+			 Corprate Customers	(600)-----------corporate customer--8----120 users
+		
+		275 users  +  5 internal users=   280 users
+		 Total cost of Office 365 subscription
+			  
+			total= 280 * 500 Rs.
+			     = 1, 40,000  cost per month
+			 cost     ==1, 20,0000 cost per month----------------- investment---- operational investment
+				  educational level========= 50,0000 rs.
+
+	         Monthly revenue of Trasflower== 5, 00,0000 Rs.
+
+		 Remaining  earning= 4 50, 000 Rs. monthly  earnning
+	salaries
+		 2,00, 000 rupees----- total employee cost
+
+		Profit ====2, 50, 000=========
+
+		Trainers: ( staff)
+			 1.Ravi Tambade-----------Chief Mentor -------
+			 2.Shubhangi Tambade------Complete organization back office managment
+			 3.Ganesh Shinde----------lab support, System Administration, software Drone
+			 4.Omkar Hinge------------content Creation (
+			 5.Rahul Navale----------- IT operations management
+			 6.
+			 7.
+			 8>
+		
+		CMS: Content Management System
+		      Notes
+		      Presentations
+		      Handson
+		      workshop related resources
+			Multiple courses
+			Multiple batches
+			Mulitiple locations
+			mulitiple channels------ ACTS, workshops, corporate training, DevCamp
+
+			
+		 Infrastructure:
+			Online Classroom
+			Web site
+			Portal ( Collaboration)
+			
+
+	 Existance: from 2012-------
+		    8 years
+
+	 Physical Infrastructure
+			200 SQ. feet   room
+			computers: 5 computers
+		
+			Online Infrastrcuture:  Microsoft Datacenter
+					        Mumbai
+			Online Platform:	Microsoft's Scalable IT Platform for Transflower applications
+			Online Services:	Microsoft's Office 365  Cloud services
+						 Data belong to Transflower
+							 content,
+							 documents  ( ACcounting, HR, payroll, finance),
+								    ( pdf, .xlsx, pptx, etc.)
+							 pictures,
+							 videos,
+							 presentations
+
+
+
+_______________________________________________________________________________________________________________________________
+	  
+	
+	
+
+IAAS:
+	Migrating existing workload to Cloud
+		 
+	
+
+	Company	would decided 
+		We already have application developed -----LOB (line of Business)
+		We already have servers built--------------databse servers, web servers, etc.
+		We aleary have customers, data inplace-----Customer base, business applications
+		we already have our Development Team-------Systems Engineers ( Dev)
+		we already have our IT Management Team-----Sytem Adminitrators( IT pros)
+
+
+	Infrastructure As A Service  ( Cloud)
+		Can we just consume Elastic Computing from Cloud Provider
+		Can we Create and deploy our servers to Virtualization Enviornment provided by Cloud provider
+
+		
+	 We just need  Online Infrastructure on Rental basis
+	 It this thing is really your requirement
+
+		Then subscribe to  Cloud
+
+			AWS-------public cloud
+			azure-------public cloud
+			GCP-------public cloud
+		
+		If you want to subscribe to Cloud
+			first try for Free tier Access
+
+	Each Cloud provider provides Free Tier access for certain duration
+		Even student, Individual or a company can subscribe to Cloud as free tier access.
+
+
+	EC2 Instance  ( virtual machines)
+		
+	Online Application Deployment
+	Invoking Cloud hosted online Application remotely from any client browser
+
+
+
+If that company already have their servers built, what are they actually using from IaaS ??
+
+IACSD, Pune ----------- ACTS school------
+	 from 1999--------- PG  DAC courses
+			60 students:---
+					attendance,
+				       assignment allocation
+				       exam conduction
+				       Resource 
+			 applications
+			 built their own servers
+			 deployed in their enviornment:
+
+	1999---2003-----2005----2010----2015-----2020
+
+			in six months more than 10000 students	
+
+				computational load------- cpu , ram, networking-----
+
+
+
+	hotel-------------------book room for few days ,month, years------------------------accomodation services
+	service apartment-------book apartment for months of years-------------Platform,services
+	Owners aparment---------it is owned by owner---------------------------Infrastructure, platform, service
+
+	budget, time, type of your business, business revenue cycle on demand resources need
+
+
+
+	 Pay as you Go
+		
+			 for your own servers with their applications and data
+	
+	InfraStructure	 CPU, RAM ,Network
+			 Storage
+			 Continous availability
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
